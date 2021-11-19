@@ -1,16 +1,35 @@
-# qr_code_scanner
+# Gerador de Qr Code
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## 📱 Telas que  fazem parte do aplicativo.
 
-A few resources to get you started if this is your first Flutter project:
+ ⚙ --Tela de criar o Qr code,
+ ⚙ --Telas de Ler Scannear o Qr Code<br>
+ 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+<br>
+## 🛠⚙ Tecnologias utilizadas
+ 
+⚙ Flutter <br>
+⚙ barcode_widget <br>
+⚙ flutter_barcode_scanner <br>
+⚙ GetX <br>
+<br>
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ ## obs.: Para o funcionamento Do projecto deves configurar seguindo os seguintes passos: #Project setup
+
+ 1- Baixar o projeto  e abrir no IDE Visual Studio Code ou no Android Studio  <br>
+ 2- Executar o comando "flutter pub get" para fazer o download das dependeicas do flutter
+ 2  Depos de ter feito o download, executar o seguinte comando "flutter run" ou simplemente usar a tecla F5 DO teclado.
+<br>
+## OBRIGADO
+<br>
+
+ 
+ 
+
+ 
+
+
+ 
