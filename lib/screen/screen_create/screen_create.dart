@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:qr_code_scanner/controller/controller_create.dart';
 import 'package:qr_code_scanner/routes/router_name_pages.dart';
+import 'package:qr_code_scanner/screen/widgets/elevated_buttonwidget.dart';
 
 class ScreenCreate extends StatelessWidget {
   const ScreenCreate({Key? key}) : super(key: key);
@@ -46,29 +47,17 @@ class ScreenCreate extends StatelessWidget {
                             const SizedBox(
                               height: 45,
                             ),
-                            SizedBox(
-                              height: 45,
-                              width: 170,
-                              child: ElevatedButton(
-                                style: ElevatedButton.styleFrom(
-                                    primary: Colors.black),
-                                onPressed: () => _conroller.createQrCode(),
-                                child: const Text("Gerar Qr code"),
-                              ),
+                            Elevatedbuttonwidget(
+                              onPressed: () => _conroller.createQrCode(),
+                              labelname: "Gerar Qr Code",
+                            ),
+                            Elevatedbuttonwidget(
+                              onPressed: () => Get.toNamed(AppPagesName.read),
+                              labelname: "Scannear Qr code",
                             ),
                             const SizedBox(
                               height: 30,
                             ),
-                            SizedBox(
-                              height: 45,
-                              width: 170,
-                              child: ElevatedButton(
-                                style: ElevatedButton.styleFrom(
-                                    primary: Colors.black),
-                                onPressed: () => Get.toNamed(AppPagesName.read),
-                                child: const Text("Scannear Qr code"),
-                              ),
-                            )
                           ],
                         ),
                       )

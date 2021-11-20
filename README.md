@@ -6,7 +6,6 @@
 
  ⚙ --Tela de criar o Qr code,
  ⚙ --Telas de Ler Scannear o Qr Code<br>
- 
 
 <br>
 ## 🛠⚙ Tecnologias utilizadas
